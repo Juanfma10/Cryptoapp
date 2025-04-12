@@ -63,6 +63,17 @@ dependencies {
     //Async images
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
+
+    //ktor
+
+    implementation(libs.ktor.client.okhttp)
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.serialization.kotlinx.json)
+
+    //coroutines kotlinx-coroutines-core
+    implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.kotlinx.coroutines.core)
+
 }
 
 kapt {

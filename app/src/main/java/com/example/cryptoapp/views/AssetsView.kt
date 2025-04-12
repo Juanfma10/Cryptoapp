@@ -1,6 +1,7 @@
 package com.example.cryptoapp.views
 
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -29,6 +30,11 @@ fun AssetRow(asset: Asset ){
         verticalAlignment = Alignment.CenterVertically,
         modifier=Modifier.fillMaxWidth()
     ) {
+        Box(
+            modifier= Modifier.padding(vertical =8.dp)
+        ){
+
+        }
         /*
         Icon(imageVector= Icons.Filled.CheckCircle,
             contentDescription = null,
