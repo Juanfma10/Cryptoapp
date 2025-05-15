@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "601419499676",
+    "project_id": "mycoinapp25",
+    "storage_bucket": "mycoinapp25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601419499676:android:685b058597fe2d2dbfc559",
+        "android_client_info": {
+          "package_name": "com.example.cryptoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDawJGQsTM4M6mSUoJMYO16rhKfld9fcFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
